@@ -3,59 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rainbow Text</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HITs PROект</title>
+    <link rel="stylesheet" href="libs/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swap.css">
 </head>
 <body>
 
-    <nav class="sidebar active">
-        <div class="logo-menu">
-            <h2 class="logo">
-                VIP_Prod
-            </h2>
-            <i class='bx bx-menu toggle-btn'></i>
-        </div>
-        <ul class="list">
-            <li class="list-item active">
-                <a href="">
-                    <img src="src/icons/star.png"/>
-                    <span class="link-name" style="--i:1">A-Star</span>
-                </a>
+<div class="text-wrap">
+    <svg viewBox="0 0 500 80">
+        <pattern
+                id="p-img"
+                viewBox="0 0 300 100"
+                patternUnits="userSpaceOnUse"
+                width="200%" height="200%"
+                x="-60%" y="-10%">
+            <image xlink:href="https://68.media.tumblr.com/f6d55c4c3981fd7409a41f9e9cfa71bf/tumblr_oqy2keV1LD1uha1xeo1_400.gif" width="300" height="200"/>
+        </pattern>
+        <text text-anchor="middle"
+              x="50%"
+              y="50%"
+              dy=".35em"
+              class="img-layer">
+            Vlad Igor Pavel
+        </text>
+        <linearGradient id="gr-overlay" x1="0" y1="0" x2="100%" y2="100%">
+            <stop stop-color="hsla(50, 100%, 80%, 0.5)" offset="90%"/>
+            <stop stop-color="hsla(50, 100%, 75%, 0.5)" offset="90%"/>
+            <stop stop-color="hsla(50, 100%, 70%, 0.5)" offset="90%"/>
+        </linearGradient>
+        <text text-anchor="middle"
+              x="50%"
+              y="50%"
+              dy=".35em"
+              class="gradient-layer">
+            Vlad Igor Pavel
+        </text>
+    </svg>
+</div>
+<img class="vip-image" src="images/vip.png" alt="vip">
 
-            </li>
-            <li class="list-item">
-                <a href="#">
-                    <img src="src/icons/cluster.png"/>
-                    <span class="link-name" style="--i:2">Clustering</span>
-                </a>
-            </li>
-            <li class="list-item">
-                <a href="#">
-                    <img src="src/icons/gen.png"/>
-                    <span class="link-name" style="--i:3">Genetic</span>
-                </a>
-            </li>
-            <li class="list-item">
-                <a href="#">
-                    <img src="src/icons/ant.png"/>
-                    <span class="link-name" style="--i:4">Ant</span>
-                </a>
-            </li>
-            <li class="list-item">
-                <a href="#">
-                    <img src="src/icons/tree.png"/>
-                    <span class="link-name" style="--i:5">Solution tree</span>
-                </a>
-            </li>
-            <li class="list-item">
-                <a href="#">
-                    <img src="src/icons/neural.png"/>
-                    <span class="link-name" style="--i:6">Neural link</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    <script src="script.js"></script>
+<section id="algorithms">
+    <div class="container">
+        <div class="swiper algorithms-slider">
+            <div class="swiper-wrapper">
+                <!-- Slide-start -->
+                <div class="swiper-slide algorithms-slide">
+                    <div class="algorithms-slide-img">
+                        <img src="images/1.png" alt="algorithms">
+                    </div>
+                    <div class="algorithms-slide-content">
+                        <a href="https://vk.com/im">
+                            <button class="algorithm-name">
+                                A-star
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide algorithms-slide">
+                    <div class="algorithms-slide-img">
+                        <img src="images/2.png" alt="algorithms">
+                    </div>
+                    <div class="algorithms-slide-content">
+                        <a href="https://vk.com/im">
+                            <button class="algorithm-name">
+                                Clustering
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide algorithms-slide">
+                    <div class="algorithms-slide-img">
+                        <img src="images/3.png" alt="algorithms">
+                    </div>
+                    <div class="algorithms-slide-content">
+                        <a href="https://vk.com/im">
+                            <button class="algorithm-name">
+                                Genetic
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide algorithms-slide">
+                    <div class="algorithms-slide-img">
+                        <img src="images/4.png" alt="algorithms">
+                    </div>
+                    <div class="algorithms-slide-content">
+                        <a href="https://vk.com/im">
+                            <button class="algorithm-name">
+                                Ant
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide algorithms-slide">
+                    <div class="algorithms-slide-img">
+                        <img src="images/5.png" alt="algorithms">
+                    </div>
+                    <div class="algorithms-slide-content">
+                        <a href="https://vk.com/im">
+                            <button class="algorithm-name">
+                                Decision tree
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Slide-end -->
+                <!-- Slide-start -->
+                <div class="swiper-slide algorithms-slide">
+                    <div class="algorithms-slide-img">
+                        <img src="images/6.png" alt="algorithms">
+                    </div>
+                    <div class="algorithms-slide-content">
+                        <a href="https://vk.com/im">
+                            <button class="algorithm-name">
+                                Neural network
+                         </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Slide-end -->
+            </div>
+
+            <div class="algorithms-slider-control">
+                <div class="swiper-button-prev slider-arrow">
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                </div>
+                <div class="swiper-button-next slider-arrow">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div class='light x1'></div>
+<div class='light x2'></div>
+<div class='light x3'></div>
+<div class='light x4'></div>
+<div class='light x5'></div>
+<div class='light x6'></div>
+<div class='light x7'></div>
+<div class='light x8'></div>
+<div class='light x9'></div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="libs/swiper/swiper.min.js"></script>
+<script src="js/script.js"></script>
 </body>
+
 </html>

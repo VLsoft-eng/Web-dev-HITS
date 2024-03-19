@@ -8,5 +8,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <orderEntry type="library" name="ionicons" level="application" />
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
   </component>
 </module>
